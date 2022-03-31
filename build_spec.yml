@@ -7,7 +7,7 @@ env:
   exportedVariables:
     - BUILDRUN_HASH
   vaultVariables:
-    OCIRCRED: "ocid1.vault.oc1.phx.bzrdt6vfaaa2a.abyhqljtsikfcgtcu3lcqjpnq72z5vtwgku6gw5wbgfygdtbq752ur746bgq"
+    OCIRCRED: "ocid1.vaultsecret.oc1.phx.amaaaaaagdowxtyao2lc43lrf4ptust4d2ex3dkqb4vxfh5vvsrslqsuuydq"
 
 steps:
   - type: Command
