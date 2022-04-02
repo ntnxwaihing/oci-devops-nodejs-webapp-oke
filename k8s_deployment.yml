@@ -5,18 +5,18 @@ metadata:
   name: node-web-app-deploy
   labels:
     app: node-web-app
-    builder: jahangir
+    builder: waihing
 spec:
   replicas: 1
   selector:
     matchLabels:
       app: node-web-app
-      builder: jahangir
+      builder: waihing
   template:
     metadata:
       labels:
         app: node-web-app
-        builder: jahangir
+        builder: waihing
     spec:
       containers:
       - name: node-web-app
@@ -41,5 +41,5 @@ spec:
     #name: node-web-app-port
   selector:
     app: node-web-app
-    builder: jahangir
+    builder: waihing
 
